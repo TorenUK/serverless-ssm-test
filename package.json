@@ -1,0 +1,18 @@
+{
+  "name": "serverless-ssm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^3.33.0"
+  },
+  "devDependencies": {
+    "serverless-ssm-plugin": "^1.1.0"
+  }
+}

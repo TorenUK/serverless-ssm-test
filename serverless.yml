@@ -1,0 +1,18 @@
+service: seg-global-infra
+frameworkVersion: "3"
+useDotenv: true
+
+provider:
+  name: aws
+  region: "eu-west-1"
+
+resources:
+  Resources:
+    testSSMParameter:
+      Type: AWS::SSM::Parameter
+      Properties:
+        Name: /test/testing-ssm-serverless
+        Type: String
+        Value: test
+
+
